@@ -1,0 +1,30 @@
+{
+  "name": "agmin/telegram",
+  "type": "project",
+  "description": "A Telegram bot",
+  "license": "AGPL-3.0",
+  "keywords": [
+    "telegram",
+    "bot"
+  ],
+  "require": {
+    "php": "^8.1.*",
+    "ext-curl": "*",
+    "ext-gettext": "*",
+    "ext-intl": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*",
+    "ext-pdo": "*",
+    "jacklul/monolog-telegram": "^3.1",
+    "longman/telegram-bot": "^0.83",
+    "spatie/emoji": "^4.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bot\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}

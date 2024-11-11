@@ -1,0 +1,40 @@
+{
+    "name": "andihuga/goodgin",
+    "authors": [
+        {
+            "name": "Andi Huga",
+            "email": "huzzva@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "ext-curl": "*",
+        "ext-gettext": "*",
+        "ext-intl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-pdo": "*",
+        "gettext/gettext": "^5.7",
+        "jacklul/monolog-telegram": "^3.1",
+        "longman/telegram-bot": "^0.83",
+        "memcachier/php-memcache-sasl": "^1.0",
+        "spatie/emoji": "^4.1",
+        "vlucas/phpdotenv": "^5.6",
+        "smarty/smarty": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "NotexyBot\\": "src/libs/agmin/notexy/src/",
+            "Bot\\": "src/libs/agmin/telegram/src/",
+            "TurboSmsUa\\": "src/libs/agmin/turbosms/",
+            "Recaptcha\\": "src/libs/agmin/recaptcha/",
+            "Combine\\": "src/libs/agmin/smarty/",
+            "GoodGin\\": "src/api/"
+        },
+        "classmap": [
+            "src/libs/chamilo/pclzip/pclzip.lib.php",
+            "src/libs/tecnickcom/tcpdf/tcpdf.php",
+            "src/libs/tecnickcom/tcpdf/tcpdf_barcodes_2d.php"
+        ]
+    }
+}

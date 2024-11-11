@@ -1,0 +1,1 @@
+Zakaz №{$order->id} otpravlen. TTN: {$order->delivery_note}

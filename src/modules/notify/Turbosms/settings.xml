@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<name>
+		Turbosms UA
+	</name>
+	<settings>
+		<variable>login</variable>
+		<name>Логин</name>
+	</settings>
+	<settings>
+		<variable>password</variable>
+		<name>Пароль</name>
+	</settings>
+	<settings>
+		<variable>name</variable>
+		<name>Alfa имя</name>
+	</settings>
+</module>

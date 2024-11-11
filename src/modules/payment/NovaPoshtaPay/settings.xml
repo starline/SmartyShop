@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<name>
+		Наложеный платеж НоваПошта
+	</name>
+	<settings>
+		<variable>tax</variable>
+		<name>Комиссия на покупателе %</name>
+	</settings>
+	<settings>
+		<variable>tax_inside</variable>
+		<name>Комиссия внутренняя %</name>
+	</settings>
+</module>

@@ -1,0 +1,1 @@
+Zakaz №{$order->id} {$payment_settings->sms_text} {$order->payment_price}{$payment_currency->sign}

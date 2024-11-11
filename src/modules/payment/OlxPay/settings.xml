@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<name>
+		Оплата через OLX
+	</name>
+	<settings>
+		<variable>fee_inside</variable>
+		<name>Комиссия сервиса % (платит продавец)</name>
+	</settings>
+	<settings>
+		<variable>fee_fix_inside</variable>
+		<name>Комиссия сервиса y.e. (платит продавец)</name>
+	</settings>
+	<settings>
+		<variable>calculate_finance_payment</variable>
+		<name>Пересчитывать финансовый платеж</name>
+		<options>
+			<name>Нет</name>
+			<value>0</value>
+		</options>
+		<options>
+			<name>Да</name>
+			<value>1</value>
+		</options>
+	</settings>
+</module>

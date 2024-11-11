@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<name>
+		Счет на оплату без НДС - ФОП Украина
+	</name>
+	<settings>
+		<variable>recipient</variable>
+		<name>Одержувача</name>
+	</settings>
+	<settings>
+		<variable>ipn</variable>
+		<name>ІПН одержувача</name>
+	</settings>
+	<settings>
+		<variable>account</variable>
+		<name>Рахунок одержувача</name>
+	</settings>
+	<settings>
+		<variable>bank</variable>
+		<name>Банк одержувача</name>
+	</settings>
+	<settings>
+		<variable>mfo</variable>
+		<name>МФО</name>
+	</settings>
+	<settings>
+		<variable>edrpou</variable>
+		<name>ЄДРПОУ</name>
+	</settings>
+	<settings>
+		<variable>recipient_adress</variable>
+		<name>Юр. адреса:</name>
+	</settings>
+	<settings>
+		<variable>pense</variable>
+		<name>Обозначение копеек</name>
+	</settings>
+	<settings>
+		<variable>tax</variable>
+		<name>Налоги ФОП % (платит покупатель)</name>
+	</settings>
+
+	<settings>
+		<variable>stamp_file</variable>
+		<name>Штамп (.png)</name>
+		<type>file</type>
+	</settings>
+	<settings>
+		<variable>sign_file</variable>
+		<name>Подпись (.png)</name>
+		<type>file</type>
+	</settings>
+</module>

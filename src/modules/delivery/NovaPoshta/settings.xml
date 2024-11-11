@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<name>
+		НоваПошта Украина
+	</name>
+	<settings>
+		<variable>api_key</variable>
+		<name>API key</name>
+	</settings>
+</module>

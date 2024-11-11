@@ -1,0 +1,11 @@
+# Composer
+/vendor/
+
+# Configuration files
+/.env
+
+# Data directory
+/data/
+
+# Other
+/translations/*.mo

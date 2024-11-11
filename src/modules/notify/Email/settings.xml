@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+	<name>
+		Оповещение по Email
+	</name>
+	<settings>
+		<variable>from_email</variable>
+		<name>Email отправителя</name>
+	</settings>
+</module>
